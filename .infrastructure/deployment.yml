@@ -40,22 +40,22 @@ spec:
         - name: HOST
           valueFrom:
             secretKeyRef:
-              name: mysql-secrets
+              name: app-secret
               key: HOST
         - name: NAME
           valueFrom:
             secretKeyRef:
-              name: mysql-secrets
+              name: app-secret
               key: NAME        
         - name: USER
           valueFrom:
             secretKeyRef:
-              name: mysql-secrets
+              name: app-secret
               key: USER
         - name: PASSWORD
           valueFrom:
             secretKeyRef:
-              name: mysql-secrets
+              name: app-secret
               key: PASSWORD
         - name: PYTHONUNBUFFERED
           valueFrom:

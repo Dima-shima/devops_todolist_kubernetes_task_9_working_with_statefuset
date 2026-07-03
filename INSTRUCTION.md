@@ -1,3 +1,6 @@
+kubectl cluster-info
+check cluster create from cluster.yml
+
 kubectl config set-context --current --namespace=mysql
 
 kubectl get secrets
